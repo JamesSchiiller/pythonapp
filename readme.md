@@ -1,0 +1,16 @@
+Dev -- 
+
+Build:
+
+$ docker build -t pythonapp:dev -f Dockerfile.dev .           Don't forget the PERIOD
+
+Run:
+
+$ docker run --rm -v $(pwd):/home/x/syn/pythonapp pythonapp:dev
+
+
+Prod -- 
+
+$ docker build -t pythonapp:prod -f Dockerfile.prod .            Don't forget the period
+
+$ docker run --rm pythonapp:prod
