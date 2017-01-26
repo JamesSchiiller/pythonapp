@@ -16,3 +16,7 @@
 * $ `docker build -t pythonapp:prod -f Dockerfile.prod .`            Don't forget the period
 
 * $ `docker run --rm pythonapp:prod`
+
+## Validation
+
+* Should print 'hello' in the terminal.
