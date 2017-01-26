@@ -1,16 +1,18 @@
-## Dev -- 
+## Install Docker
 
-Build:
+* [Mac](https://docs.docker.com/docker-for-mac/)
+* OR...
+* [Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntu/)
 
-$ `docker build -t pythonapp:dev -f Dockerfile.dev .`           Don't forget the PERIOD
+## Dev 
 
-Run:
+* $ `docker build -t pythonapp:dev -f Dockerfile.dev .`           Don't forget the PERIOD
 
-$ `docker run --rm -v $(pwd):/home/x/syn/pythonapp pythonapp:dev`
+* $ `docker run --rm -v $(pwd):/home/x/syn/pythonapp pythonapp:dev`
 
 
-## Prod -- 
+## Prod 
 
-$ `docker build -t pythonapp:prod -f Dockerfile.prod .`            Don't forget the period
+* $ `docker build -t pythonapp:prod -f Dockerfile.prod .`            Don't forget the period
 
-$ `docker run --rm pythonapp:prod`
+* $ `docker run --rm pythonapp:prod`
