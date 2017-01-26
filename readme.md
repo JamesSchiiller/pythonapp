@@ -20,3 +20,7 @@
 ## Validation
 
 * Should print 'hello' in the terminal.
+
+## Refs
+
+* http://odewahn.github.io/docker-jumpstart/building-images-with-dockerfiles.html
