@@ -1,4 +1,4 @@
-Dev -- 
+## Dev -- 
 
 Build:
 
@@ -9,7 +9,7 @@ Run:
 $ docker run --rm -v $(pwd):/home/x/syn/pythonapp pythonapp:dev
 
 
-Prod -- 
+## Prod -- 
 
 $ docker build -t pythonapp:prod -f Dockerfile.prod .            Don't forget the period
 
